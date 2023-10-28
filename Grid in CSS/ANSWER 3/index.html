@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+             display: grid;
+             grid-template-columns: 100px 100px;
+             grid-auto-rows: 150px;
+             grid-auto-columns: 100px; 
+             grid-gap: 10px;
+             background-color: aquamarine;
+        }
+
+        .item {
+            background-color: #8d8a8a;
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>grid-auto-rows and grid-auto-columns are properties used to define the size, style, and behavior of implicit rows and columns,which are created when grid items are placed outside the explicitly defined grid. </h3>
+    <div class="grid-container">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+      </div>
+      
+</body>
+</html>
+
+
